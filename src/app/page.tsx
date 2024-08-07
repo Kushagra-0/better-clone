@@ -23,9 +23,9 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="absolute z-10 text-center mx-80">
+        <div className="absolute z-10 text-center mx-80 mb-72">
           <p className="text-9xl font-bold text-[#1ee07f]">Mortgages</p>
-          <p className="text-9xl font-bold text-[#1ee07f] mb-72">made simple</p>
+          <p className="text-9xl font-bold text-[#1ee07f]">made simple</p>
         </div>
 
         <div className="relative z-10 text-right text-white mt-72 mr-64">

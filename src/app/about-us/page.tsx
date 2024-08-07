@@ -11,6 +11,7 @@ import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import Footer from "@/components/footer/footer";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function About() {
   const [showVideo, setShowVideo] = useState(false);
@@ -37,7 +38,6 @@ export default function About() {
 
       <section className="min-h-[650px] flex items-center justify-center bg-white p-8">
         <div className="flex flex-col md:flex-row w-full max-w-6xl">
-          {/* Left portion */}
           <div className="flex-1 p-4">
             <p className="text-3xl mb-5 text-[#292B29] font-semibold">
               The status quo is broken
@@ -50,10 +50,9 @@ export default function About() {
             </button>
           </div>
 
-          {/* Right portion */}
           <div className="flex-1 p-4 flex items-center justify-center">
             {!showVideo ? (
-              <img 
+              <Image
                 src="video.jpg" 
                 alt="Video Thumbnail" 
                 className="cursor-pointer w-full h-auto max-w-sm"

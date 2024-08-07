@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
       <footer className="bg-white text-black">
-        {/* Top section */}
+
         <div className="max-w-6xl mx-auto py-10 grid grid-cols-1 md:grid-cols-4 gap-8 px-4 text-[#292B29]">
           <div>
             <h4 className="font-bold text-3xl mb-4 text-[#017848]">Better</h4>
@@ -65,7 +65,7 @@ const Footer = () => {
 
         <hr className="w-2/3 ml-56 border-x-2"/>
   
-        {/* Lower section */}
+
         <div className="bg-white py-4 mt-6">
           <div className="max-w-6xl mx-auto px-4 text-left text-xs text-[#292B29]">
             <div className="mb-2">&copy;2024 Better Home & Finance Holding Company and/or its affiliates. Better is a family of companies. Better Mortgage Corporation provides home loans; Better Real Estate, LLC and Better Real Estate California Inc License # 02164055 provides real estate services; Better Cover, LLC sells insurance products; and Better Settlement Services provides title insurance services; and Better Inspect, LLC provides home inspection services. All rights reserved.</div>

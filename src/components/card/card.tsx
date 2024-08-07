@@ -1,5 +1,6 @@
 "use client"
 
+import Image from 'next/image';
 import { useState } from 'react';
 
 const images = [
@@ -19,13 +20,12 @@ function Card() {
 
   return (
     <div className="w-96 p-4 rounded-lg">
-      <img 
+      <Image
         src={images[currentImageIndex].src} 
         alt={images[currentImageIndex].alt} 
         className="w-full h-auto rounded-2xl"
       />
       <div className="flex justify-between mt-8">
-        {/* Buttons for selecting images */}
         {names.map((name, index) => (
           <button 
             key={index} 

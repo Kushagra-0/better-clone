@@ -12,7 +12,6 @@ export default function Home() {
         id="landing" 
         className="relative bg-[#004733] flex items-center justify-between min-h-[860px] px-8"
       >
-        {/* Button on the left */}
         <div className="relative z-10 mt-72 ml-64">
           <Link href="/start">
             <button className="bg-[#1ee07f] text-[#004733] font-bold px-6 py-3 h-16 w-56 rounded-full hover:bg-[#004733] hover:text-white transition-colors duration-300">
